@@ -1,4 +1,4 @@
-# runbuddy-real
+# Run Buddy,Inc
 # Run Buddy,Inc.
 
 ## Purpose
