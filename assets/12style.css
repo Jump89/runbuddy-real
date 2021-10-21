@@ -1,14 +1,14 @@
 
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0%;
-    box-sizing: border-box;
 }
 
 body {
     /* this area is for all the body defines the color of text used and any other thing you wish to see in the body.*/
     font-family: Helvetica, arial, sans-serif;
-    color: #39a6b2;
+    color:  #024e76;
 }
 /* applying styles to header*/
 /* Padding can alos be appled  from (top,right,bottom,left) (20px,15px,30px,10px) same as padding-top 20px, padding-right 15px, padding-bottom 30px, padding-left 10px*/
@@ -77,18 +77,18 @@ section {
 /* hero style start*/
 .hero {
     background-image: url("../images/hero-bg.jpeg");
-    height: 600px;
     background-size: cover;
     background-position: center;
     position: relative;
+    height: 600px;
 }
 /* hero style end */
 .hero-form{
+    border: 3px solid  #024e76;
     background-color: #fce138;
     padding: 20px;
     width: 500px;
     color: #024e76;
-    border:  3px solid  #024e76;
     position: absolute;
     bottom: 120px;
     right: 140px;
@@ -125,9 +125,27 @@ section {
     padding: 10px 20px;
 
 }
-
+/* Hero STyles end*/
 
 /* Starting of footer section*/
+.section-title {
+    font-size: 55px;
+    display: inline-block;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    margin-bottom:35px;
+    color: #024e76;
+   
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secodary-border {
+    border-color: #39a6b2;
+}
+
 
 /* intro styleing */
  .intro {
@@ -139,7 +157,7 @@ section {
      color: #39a6b2;
      width: 80%;
      font-size: 20px;
-     /* adding margibg 0 auto will center the text */
+     /* adding marginbg 0 auto will center the text */
      margin: 0 auto;
  }
 
@@ -165,36 +183,19 @@ section {
     margin-top: 10px;
 }
 
-.steps p {
-    color: #39a6b2;
-    font-size: 23px;
-}
 /* span to fix fontsize and target spacfic h1-h6 elements to better control the font size and other things etc*/
 .steps span {
     font-size: 38px;
 }
 
-.section-title {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
-    border-bottom: 3px solid;
-   
-}
-
-.primary-border {
-    border-color: #fce138;
-}
-
-.secodary-border {
-    border-color: #39a6b2;
+.steps p {
+    color: #39a6b2;
+    font-size: 23px;
 }
 
 
 /* Trainers section  starts*/
-.trainer {
+.trainers {
     text-align: center;
 }
 
@@ -219,7 +220,7 @@ section {
 
 .trainer-bio h3 {
     font-size: 32px;
-    margin-bottom: 25px;
+    margin-bottom: 8px;
 }
 
 .trainer-bio h4 {
@@ -233,18 +234,12 @@ section {
     line-height: 1.3;
 }
 
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
 
 /* Reach Out Styles Start*/
 .contact {
     text-align: center;
     background: #024e76;
+    
 }
 
 .contact h2 {
@@ -257,13 +252,13 @@ section {
     
 }
 
-.contact-info diiv {
+.contact-info div {
     width: 410px;
     display: inline-block;
     vertical-align: top;
     text-align: left;
     margin: 30px 0 0 60px;
-    color: white;
+    color:white;
 }
 
 .contact-info h3 {
@@ -271,15 +266,26 @@ section {
     font-size: 32px;
 }
 
-.contact-info p, 
-.contact-info address {
+.contact-info p, .contact-info address {
     margin: 20px 0;
     line-height: 1.5;
     font-size: 20px;
     font-style: normal;
+    color: white;
+    
 
 }
 
 .contact-info a {
     color: #fce138;
 }
+/* reach out styles end */
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
