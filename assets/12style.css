@@ -18,8 +18,8 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: -webkit-sticky;
     position: sticky;
+    position: -webkit-sticky;
     top: 0;
     background-image: url("../images/hero-bg.jpeg");
     background-size: cover;
@@ -79,7 +79,6 @@ footer {
 }
 
 footer h2 {
-    
     color: #024e76;
     font-size: 30px;
     margin: 0;
@@ -98,7 +97,6 @@ footer a {
 /* Starting of sections*/
 section {
     padding: 60px;
-    
 }
 /* hero style start*/
 .hero {
@@ -141,13 +139,17 @@ section {
     
 }
 
+.hero-form button:hover {
+    background-color: #39a6b2;
+}
+
 .hero-form h3{
     font-size: 24px;
     margin: 0;
 }
 
 .hero-form p {
-    margin: 5px 0px 15px 0px;
+    margin: 5px 0 15px 0;
 }
 
 .form-input{
@@ -179,9 +181,7 @@ section {
     padding: 10px 20px;
     border-radius: 10px;
 }
-.hero-form button:hover {
-    background-color: #39a6b2;
-}
+
 
 /* Hero STyles end*/
 
@@ -286,12 +286,10 @@ section {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-   
+    justify-content: space-around;  
 }
 
 .trainer {
-    
     margin: 20px;
     background: #024e76;
     color: #fce138;
@@ -300,8 +298,7 @@ section {
 }
 
 .trainers img {
-    width: 100%;
-    
+    width: 100%;  
 }
 
 .trainer-bio {
@@ -375,6 +372,12 @@ section {
     margin-bottom: 15px;
     margin-top: 5px;
     border-radius: 10px;
+    background-color: rgba(255, 255, 255, .75);
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    background-color: rgba(255, 255, 255, 1);
+    outline: none;
 }
 
 .contact-form button {
@@ -398,14 +401,6 @@ section {
     color: #fce138;
 }
 
-.contact-form input, .contact-form textarea {
-    background-color: rgba(255, 255, 255, 1);
-}
-
-.contact-form input:focus, .contact-form textarea:focus {
-    background-color: rgba(255, 255, 255, 1);
-    outline: none;
-}
 
 /* reach out styles end */
 
